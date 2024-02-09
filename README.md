@@ -209,16 +209,6 @@ Execute o seguinte comando para iniciar o servidor:
 dotnet run
 ```
 
-### Melhorias
-- Como foi a minha primeira experiência utilizando Vue.js, percebo que a maioria dos meus pontos de melhoria estão relacionados a ele.
-
-- A organização da estrutura e projeto foi com base nos projetos que ja trabalhei em Angular e React.
-- Tive um pouco de dificuldade para configurar o veutify, mas com a documentação ajudou. 
-
-- No frontend, percebi a importância de implementar validadores de formulários para garantir que as requisições cheguem ao backend apenas quando estiverem dentro dos padrões aceitos, para evitar erros e sobrecarga de requisições.
-
-- Layout de maneira geral, poderia ser melhorado, implementar maior reponsividade, e colocaria o select funcional nas colunas da tabela da listagem de alunos.
-
 - No backend, acho que o principal e melhorar a configuração do projeto. 
   
 
