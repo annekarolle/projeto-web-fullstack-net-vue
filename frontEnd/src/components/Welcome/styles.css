@@ -1,0 +1,9 @@
+.container-imagem-welcome{
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-imagem-welcome img{
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,66 @@
+:root {
+    --brand-color1: #57bcff;    
+    --brand-color2:  #3498db;  
+    --brand-color3:  #20597f;  
+    --bg: #57bcff7e;
+    --sucess: #2ecc71; 
+    --danger: #e74c3c; 
+    --warning: #f39c12;
+    --grey : #cecccc
+}
+
+
+
+
+body{
+    background-color: var(--bg);
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--grey);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--brand-color3);
+}
+
+
+
+
+ .btn {
+    padding: 0.5em;
+    border: none;
+    width: 100px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    filter: brightness(1.1);
+ }
+ 
+ .btn-cancel{
+    background-color: var(--danger);
+ }
+
+ .btn-save{
+    background-color: var(--sucess);
+ }
+
+ .nav-link {
+    text-decoration: none;  
+    color: #333;  
+    margin-right: 10px;  
+    padding: 0.5em;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: var(--brand-color1);
+    color: white;
+  }

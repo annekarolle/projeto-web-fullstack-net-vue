@@ -1,0 +1,60 @@
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Warning : 0 - User Thanos created with sucess!
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Warning : 0 - User teste created with sucess!
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Error : UnhandledException - An unhandled exception has occurred while executing the request.
+Error : UnhandledException - An unhandled exception has occurred while executing the request.
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Warning : 0 - User teste 23 created with sucess!
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Warning : 0 - User oi created with sucess!
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\StoreFIAP

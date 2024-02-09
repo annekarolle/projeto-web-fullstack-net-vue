@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=235e0766_002D7cca_002D4a9c_002D8aef_002D25d43dc55c3d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from UserTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;683232EF-8FC7-4827-AF73-ACBE798FEA7E/f:UserTest.cs&lt;/ProjectFile&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=562b8f51_002D52c9_002D4a01_002Da694_002D8fc66a0844d4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;ProjectFile&gt;683232EF-8FC7-4827-AF73-ACBE798FEA7E/f:UserTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;Project Location="C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\StoreFiap\UserTemplateTest" Presentation="&amp;lt;UserTemplateTest&amp;gt;" /&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreFIAP</name>
+    </assembly>
+    <members>
+        <member name="M:StoreFIAP.Controllers.LoginController.Authenticate(StoreFIAP.DTO.LoginDTO)">
+            <summary>
+            Rota de autenticação de Usuário
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StoreFIAP.Entity.User">
+            <summary>
+            Representa um usuário no sistema, contendo informações essenciais e métodos relacionados. Herda propriedade Id de Entitys
+            </summary>
+        </member>
+        <member name="M:StoreFIAP.Entity.User.#ctor(StoreFIAP.DTO.SaveUserDTO)">
+            <summary>
+            Cria uma nova instância da classe User com as informações fornecidas, pelo SaveUserDTO
+            </summary>
+            <param name="userName">O nome do usuário.</param>
+            <param name="email">O endereço de e-mail do usuário.</param>
+            <param name="password">A senha do usuário.</param>
+            <param Permitions="permitions">Tipo de permissão do usuário no sistema.</param>
+        </member>
+        <member name="M:StoreFIAP.Interface.IRepository`1.GetAll">
+            <summary>
+            Retorna uma lista da entidade selecionada
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StoreFIAP.Interface.IRepository`1.GetById(System.Int32)">
+            <summary>
+            Obtem a entidade selecionada pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StoreFIAP.Interface.IRepository`1.Save(`0)">
+            <summary>
+            Cria uma instancia da entidade selecionada
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:StoreFIAP.Interface.IRepository`1.Put(`0)">
+            <summary>
+            Altera uma propriedade da instância da entidade selecionada
+            </summary>
+            <param password="entity"></param>        
+        </member>
+        <member name="M:StoreFIAP.Interface.IRepository`1.Delete(System.Int32)">
+            <summary>
+            Deleta a instancia da entidade selecionada pelo Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:StoreFIAP.Interface.IUserRepository.GetUserByNameAndPassword(System.String,System.String)">
+            <summary>
+            Retorna o usuário encontrado com os parametros passados
+            </summary>
+            <param Email="Email"></param>
+            <param password="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.SaveUser(StoreFIAP.DTO.SaveUserDTO)">
+            <summary>
+            Cria um novo usuário.
+            </summary>
+            <param name="userDTO"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:UserController.GetAllUser">
+            <summary>
+            Obtém todos os usuários, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+        </member>
+        <member name="M:UserController.GetUserById(System.Int32)">
+            <summary>
+             Obtém todos os usuários, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:UserController.PutUser(System.Int32)">
+            <summary>
+            Modifica dados do usuário, método necessita de autenticação.
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response> 
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:UserController.DeleteUser(System.Int32)">
+            <summary>
+            Deleta usuário, o método necessita de permissão de Administrador.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+    </members>
+</doc>

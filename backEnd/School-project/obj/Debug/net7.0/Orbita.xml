@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orbita</name>
+    </assembly>
+    <members>
+        <member name="M:orbita.Controllers.StudentController.SaveStudent(Orbita.DTO.SaveStudentsDTO)">
+            <summary>
+            Cria um novo usuário.
+            </summary>
+            <param name="SaveStudentsDTO"></param>
+            <returns></returns>  
+        </member>
+        <member name="M:orbita.Controllers.StudentController.GetAllStudents">
+            <summary>
+            Obtém todos os alunos, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+        </member>
+        <member name="M:orbita.Controllers.StudentController.GetUserByRA(System.String)">
+            <summary>
+             Obtém  alunos por RA, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <param name="ra"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Aluno não encontrado</response>
+        </member>
+        <member name="M:orbita.Controllers.StudentController.DeleteStudentRa(System.String)">
+            <summary>
+            Deleta um aluno, o método necessita de permissão de Administrador.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:orbita.Controllers.StudentController.EditStudent(Orbita.DTO.PutStudentDTO)">
+            <summary>
+            Modifica email do usuário, método necessita de autenticação.
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response> 
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:orbita.Interface.IStudentRepository.IsEmailAlreadyRegistered(System.String)">
+            <summary>
+            Retornar um boleano se o email já esta registrado no banco
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:orbita.Interface.IStudentRepository.GetByRA(System.String)">
+            <summary>
+            Retornar o aluno encontrado pelo RA registrado no banco
+            </summary>
+            <param name="ra"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Controllers.LoginController.Authenticate(Orbita.DTO.LoginDTO)">
+            <summary>
+            Rota de autenticação de Usuário
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Orbita.Entity.User">
+            <summary>
+            Representa um usuário no sistema, contendo informações essenciais e métodos relacionados. Herda propriedade Id de Entitys
+            </summary>
+        </member>
+        <member name="M:Orbita.Entity.User.#ctor(Orbita.DTO.SaveUserDTO,Orbita.Services.PasswordHasherService)">
+            <summary>
+            Cria uma nova instância da classe User com as informações fornecidas, pelo SaveUserDTO
+            </summary>
+            <param name="userName">O nome do usuário.</param>
+            <param name="email">O endereço de e-mail do usuário.</param>
+            <param name="password">A senha do usuário.</param>
+            <param Permitions="permitions">Tipo de permissão do usuário no sistema.</param>
+        </member>
+        <member name="M:Orbita.Interface.IRepository`1.GetAll">
+            <summary>
+            Retorna uma lista da entidade selecionada
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Interface.IRepository`1.GetById(System.Int32)">
+            <summary>
+            Obtem a entidade selecionada pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Interface.IRepository`1.Save(`0)">
+            <summary>
+            Cria uma instancia da entidade selecionada
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:Orbita.Interface.IRepository`1.Put(`0)">
+            <summary>
+            Altera uma propriedade da instância da entidade selecionada
+            </summary>
+            <param name="entity"></param>        
+        </member>
+        <member name="M:Orbita.Interface.IRepository`1.Delete(System.Int32)">
+            <summary>
+            Deleta a instancia da entidade selecionada pelo Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Orbita.Interface.IUserRepository.ValidatedCredential(System.String,System.String)">
+            <summary>
+            Retorna o usuário encontrado com os parametros passados
+            </summary>
+            <param Email="Email"></param>
+            <param password="password"></param>
+            <returns></returns>       
+        </member>
+        <member name="M:Orbita.Interface.IUserRepository.IsEmailAlreadyRegistered(System.String)">
+            <summary>
+            Retornar um boleano se o email já esta registrado no banco
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Interface.IUserRepository.GetUserByEmail(System.String)">
+            <summary>
+            Retorna um usuario com o email informado
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Orbita.Migrations.createtables">
+            <inheritdoc />
+        </member>
+        <member name="M:Orbita.Migrations.createtables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Orbita.Migrations.createtables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Orbita.Migrations.createtables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Orbita.Repository.EFStudentRepository.IsEmailAlreadyRegistered(System.String)">
+            <summary>
+            Faz a verificação se o email já esta registrado
+            </summary>
+            <param name="email"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Repository.EFUserRepository.ValidatedCredential(System.String,System.String)">
+            <summary>
+            Faz a verificação das credenciais passadas e retorna o usuário.
+            </summary>
+            <param name="email"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Repository.EFUserRepository.IsEmailAlreadyRegistered(System.String)">
+            <summary>
+            Faz a verificação se o email já esta registrado
+            </summary>
+            <param name="email"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:Orbita.Repository.EFUserRepository.GetUserByEmail(System.String)">
+            <summary>
+            Faz a verificação se o email já esta registrado
+            </summary>
+            <param name="email"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:UserController.SaveUser(Orbita.DTO.SaveUserDTO)">
+            <summary>
+            Cria um novo usuário.
+            </summary>
+            <param name="userDTO"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:UserController.GetAllUser">
+            <summary>
+            Obtém todos os usuários, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+        </member>
+        <member name="M:UserController.GetUserById(System.Int32)">
+            <summary>
+             Obtém todos os usuários, o método necessita de autenticação e permissão de Administrador
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:UserController.ChangeUserEmail(System.String)">
+            <summary>
+            Modifica email do usuário, método necessita de autenticação.
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response> 
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:UserController.ChangePassword(System.String)">
+            <summary>
+            Modifica a senha do usuário, método necessita de autenticação.
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response> 
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+        <member name="M:UserController.DeleteUser(System.Int32)">
+            <summary>
+            Deleta usuário, o método necessita de permissão de Administrador.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200"> Retonar Sucesso</response>
+            <response code="401"> Não Autenticado</response>
+            <response code="403"> Ñão Autorizado</response>
+            <response code="404"> Usuário não encontrado</response>
+        </member>
+    </members>
+</doc>

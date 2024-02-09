@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orbita", "Orbita.csproj", "{22C27293-DBB4-40C3-B54D-497B1A453AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbita-Teste", "..\Orbita-Teste\Orbita-Teste.csproj", "{BDF6C6B8-4EF4-4B7C-9D5D-B0A5B574D22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C27293-DBB4-40C3-B54D-497B1A453AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C27293-DBB4-40C3-B54D-497B1A453AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C27293-DBB4-40C3-B54D-497B1A453AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C27293-DBB4-40C3-B54D-497B1A453AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF6C6B8-4EF4-4B7C-9D5D-B0A5B574D22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF6C6B8-4EF4-4B7C-9D5D-B0A5B574D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF6C6B8-4EF4-4B7C-9D5D-B0A5B574D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF6C6B8-4EF4-4B7C-9D5D-B0A5B574D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0F66E7-104C-49F9-812A-1ABDFB49F807}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+Information : ListeningOnAddress - Now listening on: https://localhost:7287
+Information : ListeningOnAddress - Now listening on: http://localhost:5158
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\tech-Challenge-Modulo1\tech-challenge-Back\Play-investe
+Information : ListeningOnAddress - Now listening on: https://localhost:7287
+Information : ListeningOnAddress - Now listening on: http://localhost:5158
+Information : 0 - Application started. Press Ctrl+C to shut down.
+Information : 0 - Hosting environment: Development
+Information : 0 - Content root path: C:\Users\annek\OneDrive\Documentos\ESTUDO\FIAP\Modulo 1\tech-Challenge-Modulo1\tech-challenge-Back\Play-investe
